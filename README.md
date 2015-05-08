@@ -29,6 +29,7 @@ hciconfig
 如果看到
 
 hci0:	Type: BR/EDR  Bus: USB
+
 	BD Address: 00:02:72:14:27:0E  ACL MTU: 1021:8  SCO MTU: 64:1
 	
 	DOWN 
