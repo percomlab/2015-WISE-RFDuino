@@ -2,9 +2,9 @@
 
 BlueZ安裝
 
-sudo apt-get install libdbus-1-dev libdbus-glib-1-dev libglib2.0-dev libical-dev libreadline-dev libudev-dev libusb-dev make
+	sudo apt-get install libdbus-1-dev libdbus-glib-1-dev libglib2.0-dev libical-dev libreadline-dev libudev-dev libusb-dev make
 
-mkdir -p work/bluepy
+	mkdir -p work/bluepy
 
 cd work/bluepy
 
