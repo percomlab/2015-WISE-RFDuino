@@ -3,24 +3,15 @@
 BlueZ安裝
 
 	sudo apt-get install libdbus-1-dev libdbus-glib-1-dev libglib2.0-dev libical-dev libreadline-dev libudev-dev libusb-dev make
-
 	mkdir -p work/bluepy
-
-cd work/bluepy
-
-wget https://www.kernel.org/pub/linux/bluetooth/bluez-5.11.tar.xz
-
-xz -d bluez-5.11.tar.xz
-
-tar xvf bluez-5.11.tar
-
-cd bluez-5.11
-
-./configure --disable-systemd
-
-Make
-
-sudo make install
+	cd work/bluepy
+	wget https://www.kernel.org/pub/linux/bluetooth/bluez-5.11.tar.xz
+	xz -d bluez-5.11.tar.xz
+	tar xvf bluez-5.11.tar
+	cd bluez-5.11
+	./configure --disable-systemd
+	Make
+	sudo make install
 
 確認Usb
 
