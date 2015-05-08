@@ -29,7 +29,6 @@ hciconfig
 如果看到
 
 hci0:	Type: BR/EDR  Bus: USB
-
 	BD Address: 00:02:72:14:27:0E  ACL MTU: 1021:8  SCO MTU: 64:1
 	
 	DOWN 
@@ -37,7 +36,6 @@ hci0:	Type: BR/EDR  Bus: USB
 	RX bytes:2715 acl:1 sco:0 events:146 errors:0
 	
 	TX bytes:2500 acl:0 sco:0 commands:133 errors:0
-	
 則將它開啟
 
 sudo hciconfig hci0 up
